@@ -4,8 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.widget.TextView
-import androidx.recyclerview.widget.LinearLayoutManager
+/*import android.widget.TextView
+import androidx.recyclerview.widget.LinearLayoutManager*/
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*val itemList: RecyclerView = findViewById(R.id.viewPager2)
+       /* val itemList: RecyclerView = findViewById(R.id.viewPager2)
         val items = arrayListOf<Item>()
 
         items.add(Item(1, "book1", "Болезни уха, горла, носа. Современный взгляд на причины и лечение", "Григорий Константинович Леонов", 2023, "Медицина, Здоровье", "О причинах, диагностике и методах лечения самых распространенных заболеваний уха, горло и носа. Автор книги, Григорий Леонов, врач-оториноларинголог (ЛОР) с опытом работы более 10 лет. Он объясняет, как устроены ухо, горло и нос, какие симптомы сопровождают то или иное заболевание, связанное с ними, и какая терапия считается эффективной с точки зрения доказательной медицины. Из-за чего возникают риносинуситы и кровотечение из носа? О чем могут говорить частые ангины? Правда ли, что лучше не пользоваться ватными палочками? От травм носа до нарушений слуха, от симптоматики до препаратов – доктор Леонов разбирает самые разные темы, которые касаются здоровья уха, горла и носа."))
