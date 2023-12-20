@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private val runnable = Runnable{
-        viewPager2.currentItem = viewPager2.currentItem   //Здесь при добавлении +-1 слайдер движется сам
+        viewPager2.currentItem = viewPager2.currentItem     //Здесь при добавлении +-1 слайдер движется сам
     }
 
     private fun setUpTransformer(){                            //Модификация image container
